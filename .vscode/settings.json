@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // デフォルトのフォーマッターをPrettierに設定
+  "editor.formatOnSave": true, // 保存時に自動フォーマット
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.includeCompletionsForImportStatements": true,
+  "typescript.suggest.includeCompletionsForImportStatements": true
+}
