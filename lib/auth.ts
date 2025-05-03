@@ -14,8 +14,8 @@ export const authOptions: NextAuthOptions = {
       allowDangerousEmailAccountLinking: true,
     }),
     Google({
-      clientId: process.env.GOOLE_CLIENT_ID!,
-      clientSecret: process.env.GOOLE_CLIANT_SECRET!,
+      clientId: process.env.GOOGLE_CLIENT_ID!,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
       allowDangerousEmailAccountLinking: true,
     }),
   ],
